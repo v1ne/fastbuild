@@ -19,7 +19,7 @@ Settings
         .Environment    = { "PATH=$VSBasePath$\Common7\IDE\;$VSBasePath$\VC\bin\",
                             "TMP=$TMP$",
                             "SystemRoot=C:\Windows" }
-        .CachePath      = "C:\.fbuild.cache"
+        ;.CachePath      = "C:\.fbuild.cache"
     #endif
     #if __OSX__
         .CachePath      = "/tmp/.fbuild.cache"
