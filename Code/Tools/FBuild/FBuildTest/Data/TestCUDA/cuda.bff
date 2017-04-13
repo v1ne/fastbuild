@@ -9,7 +9,7 @@ Settings
     .Environment    = { "PATH=$VSPath$\Common7\IDE\;$VSPath$\VC\bin\amd64\",
                         "TMP=$TMP$",
                         "SystemRoot=C:\Windows" }
-    .CachePath = 'c:\.fbuild.cache'
+    .CachePath = '$TMP$\.fbuild.cache'
 }
 
 .Compiler   = '$ExternalPath$\SDK\CUDA_6.5.14\CUDAToolkit\bin\nvcc.exe'
