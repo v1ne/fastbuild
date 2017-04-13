@@ -49,6 +49,8 @@ Using( .StandardEnvironment )
                         + ' kernel32.lib'
                         + ' Ws2_32.lib'
                         + ' LIBCMT.LIB'
+                        + ' LIBUCRT.LIB'
+                        + ' LIBVCRUNTIME.LIB'
 #endif
 
 // External Libs
